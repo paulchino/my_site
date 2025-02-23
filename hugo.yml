@@ -1,0 +1,4 @@
+baseURL: https://paulchino.github.io/
+languageCode: en-us
+title: Paul's Site
+theme: ["PaperMod"]
