@@ -1,4 +1,54 @@
 baseURL: https://paulchino.github.io/
 languageCode: en-us
-title: Paul's Site
+title: Paul's Workspace
 theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Paul's Workspace - https://paulchino.github.io/my_site/"
+  author: Paul Chang
+  defaultTheme: auto
+  # disableThemeToggle: true
+  # ShowShareButtons: true
+  # ShareButtons: ["linkedin"]
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Tech and Tangents"
+    Content: |
+      Welcome! I'm Paul Chang, a software developer in the Bay Area. I'm currently working at [Carta](https://www.carta.com/) as a Senior Developer 
+      on the Venture Capital team. Before that, I was on the Surveys Team at [SurveyMonkey](https://www.surveymonkey.com/).
+      This page is a collection of my thoughts on work, life, and whatever hobbies I’m exploring at the moment. Feel free to look around!
+
+  socialIcons:
+    - name: linkedin
+      title: Linkedin
+      url: "https://www.linkedin.com/in/pchang1/"
