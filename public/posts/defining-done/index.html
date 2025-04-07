@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Defining and Communicating &#34;Done&#34; | Paul&#39;s Workspace</title>
+<meta name="keywords" content="">
+<meta name="description" content="Recently, I created an internal guide for my team after noticing repeated struggles with meeting self-set deadlines. My hope is that sharing our approach might help other teams facing similar challenges.
+Below is a simplified framework we&rsquo;ve adopted to clearly define what &ldquo;done&rdquo; truly means, how to provide accurate estimates, and best practices for transparent communication. Feel free to adapt it to your own team&rsquo;s needs!
+What Does &ldquo;Done&rdquo; Mean?
+&ldquo;Done&rdquo; isn&rsquo;t merely finishing code and merging it. For us, a task is considered complete only when:">
+<meta name="author" content="Paul Chang">
+<link rel="canonical" href="http://localhost:1313/posts/defining-done/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/defining-done/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/posts/defining-done/">
+  <meta property="og:site_name" content="Paul&#39;s Workspace">
+  <meta property="og:title" content="Defining and Communicating &#34;Done&#34;">
+  <meta property="og:description" content="Recently, I created an internal guide for my team after noticing repeated struggles with meeting self-set deadlines. My hope is that sharing our approach might help other teams facing similar challenges.
+Below is a simplified framework we’ve adopted to clearly define what “done” truly means, how to provide accurate estimates, and best practices for transparent communication. Feel free to adapt it to your own team’s needs!
+What Does “Done” Mean? “Done” isn’t merely finishing code and merging it. For us, a task is considered complete only when:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-06T17:24:07-07:00">
+    <meta property="article:modified_time" content="2025-04-06T17:24:07-07:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Defining and Communicating &#34;Done&#34;">
+<meta name="twitter:description" content="Recently, I created an internal guide for my team after noticing repeated struggles with meeting self-set deadlines. My hope is that sharing our approach might help other teams facing similar challenges.
+Below is a simplified framework we&rsquo;ve adopted to clearly define what &ldquo;done&rdquo; truly means, how to provide accurate estimates, and best practices for transparent communication. Feel free to adapt it to your own team&rsquo;s needs!
+What Does &ldquo;Done&rdquo; Mean?
+&ldquo;Done&rdquo; isn&rsquo;t merely finishing code and merging it. For us, a task is considered complete only when:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Defining and Communicating \"Done\"",
+      "item": "http://localhost:1313/posts/defining-done/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Defining and Communicating \"Done\"",
+  "name": "Defining and Communicating \u0022Done\u0022",
+  "description": "Recently, I created an internal guide for my team after noticing repeated struggles with meeting self-set deadlines. My hope is that sharing our approach might help other teams facing similar challenges.\nBelow is a simplified framework we\u0026rsquo;ve adopted to clearly define what \u0026ldquo;done\u0026rdquo; truly means, how to provide accurate estimates, and best practices for transparent communication. Feel free to adapt it to your own team\u0026rsquo;s needs!\nWhat Does \u0026ldquo;Done\u0026rdquo; Mean? \u0026ldquo;Done\u0026rdquo; isn\u0026rsquo;t merely finishing code and merging it. For us, a task is considered complete only when:\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Recently, I created an internal guide for my team after noticing repeated struggles with meeting self-set deadlines. My hope is that sharing our approach might help other teams facing similar challenges.\nBelow is a simplified framework we’ve adopted to clearly define what “done” truly means, how to provide accurate estimates, and best practices for transparent communication. Feel free to adapt it to your own team’s needs!\nWhat Does “Done” Mean? “Done” isn’t merely finishing code and merging it. For us, a task is considered complete only when:\nCode is implemented and thoroughly tested (including both front-end and back-end tests when applicable). Peer code review is complete, and feedback has been addressed. The feature has passed QA (developer or dedicated QA tester). Necessary documentation is updated. Stakeholders (PM, Designers) confirm the implementation meets expectations. All dependencies from other teams are resolved and integrated. The feature is deployable and functions correctly in staging or production environments. In short, Done = Ready for production, delivering value, without blockers.\nProviding Realistic Estimates Be Honest About Uncertainty When uncertain about the complexity of a task:\nDon’t give rushed estimates that might be mistaken for commitments. Instead, request time explicitly to investigate the task (e.g., “I’ll need approximately 1 day to accurately estimate this.”). Estimate in Days or Half-Days Avoid hourly estimates unless the task is very familiar. Tasks typically take longer than anticipated. Use half-days or full days for clarity and realistic buffer.\nHigh-Level Estimates for Ambiguous Work Clearly indicate when estimates are broad or directional for large tasks or epics, highlighting the inherent uncertainty.\nPlanning for Dependencies and Collaboration Account for Cross-Team Availability Remember to factor in:\nReview timelines; code reviews aren’t instant. Feedback cycles with stakeholders, designers, or QA. Delays from cross-team dependencies. Identify Needed Support Early Consider upfront what you’ll require:\nClarified designs or business logic. Dedicated QA resources. Access to necessary environments or data. Raise anticipated blockers early in the planning process to minimize surprises.\nCommunication Best Practices Proactively Share Changes or Risks Complex work often takes longer than initially anticipated. This is normal, but silence around missed deadlines is not acceptable.\nAlways:\nCommunicate delays or potential issues as soon as possible. Clearly articulate challenges to project managers and teammates. Seek help early—don’t silently struggle or compromise quality. Cutting corners (like skipping testing) will lead to more issues down the line.\nReflect After Delays When tasks run significantly over:\nReflect briefly: What caused delays? Could planning or stakeholder involvement be improved? Conducting a quick “mini-retro” after feature completion helps refine the team’s future estimates and processes.\nSummary Define “done” comprehensively: include testing, review, documentation, and stakeholder approval. Provide transparent, realistic estimates based on actual investigation. Plan with dependencies, review cycles, and unpredictability in mind. Never compromise quality to hit deadlines. Communicate proactively. Reflect and adapt continuously to improve future deliveries. ",
+  "wordCount" : "469",
+  "inLanguage": "en",
+  "datePublished": "2025-04-06T17:24:07-07:00",
+  "dateModified": "2025-04-06T17:24:07-07:00",
+  "author":{
+    "@type": "Person",
+    "name": "Paul Chang"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/defining-done/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Paul's Workspace",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Paul&#39;s Workspace (Alt + H)">Paul&#39;s Workspace</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Defining and Communicating &#34;Done&#34;
+    </h1>
+    <div class="post-meta"><span title='2025-04-06 17:24:07 -0700 PDT'>April 6, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Paul Chang
+
+</div>
+  </header> 
+  <div class="post-content"><p>Recently, I created an internal guide for my team after noticing repeated struggles with meeting self-set deadlines. My hope is that sharing our approach might help other teams facing similar challenges.</p>
+<p>Below is a simplified framework we&rsquo;ve adopted to clearly define what &ldquo;done&rdquo; truly means, how to provide accurate estimates, and best practices for transparent communication. Feel free to adapt it to your own team&rsquo;s needs!</p>
+<h2 id="what-does-done-mean">What Does &ldquo;Done&rdquo; Mean?<a hidden class="anchor" aria-hidden="true" href="#what-does-done-mean">#</a></h2>
+<p>&ldquo;Done&rdquo; isn&rsquo;t merely finishing code and merging it. For us, a task is considered complete only when:</p>
+<ul>
+<li>Code is implemented and thoroughly tested (including both front-end and back-end tests when applicable).</li>
+<li>Peer code review is complete, and feedback has been addressed.</li>
+<li>The feature has passed QA (developer or dedicated QA tester).</li>
+<li>Necessary documentation is updated.</li>
+<li>Stakeholders (PM, Designers) confirm the implementation meets expectations.</li>
+<li>All dependencies from other teams are resolved and integrated.</li>
+<li>The feature is deployable and functions correctly in staging or production environments.</li>
+</ul>
+<p>In short, <strong>Done = Ready for production, delivering value, without blockers.</strong></p>
+<h2 id="providing-realistic-estimates">Providing Realistic Estimates<a hidden class="anchor" aria-hidden="true" href="#providing-realistic-estimates">#</a></h2>
+<h3 id="be-honest-about-uncertainty">Be Honest About Uncertainty<a hidden class="anchor" aria-hidden="true" href="#be-honest-about-uncertainty">#</a></h3>
+<p>When uncertain about the complexity of a task:</p>
+<ul>
+<li>Don’t give rushed estimates that might be mistaken for commitments.</li>
+<li>Instead, request time explicitly to investigate the task (e.g., &ldquo;I’ll need approximately 1 day to accurately estimate this.&rdquo;).</li>
+</ul>
+<h3 id="estimate-in-days-or-half-days">Estimate in Days or Half-Days<a hidden class="anchor" aria-hidden="true" href="#estimate-in-days-or-half-days">#</a></h3>
+<p>Avoid hourly estimates unless the task is very familiar. Tasks typically take longer than anticipated. Use half-days or full days for clarity and realistic buffer.</p>
+<h3 id="high-level-estimates-for-ambiguous-work">High-Level Estimates for Ambiguous Work<a hidden class="anchor" aria-hidden="true" href="#high-level-estimates-for-ambiguous-work">#</a></h3>
+<p>Clearly indicate when estimates are broad or directional for large tasks or epics, highlighting the inherent uncertainty.</p>
+<h2 id="planning-for-dependencies-and-collaboration">Planning for Dependencies and Collaboration<a hidden class="anchor" aria-hidden="true" href="#planning-for-dependencies-and-collaboration">#</a></h2>
+<h3 id="account-for-cross-team-availability">Account for Cross-Team Availability<a hidden class="anchor" aria-hidden="true" href="#account-for-cross-team-availability">#</a></h3>
+<p>Remember to factor in:</p>
+<ul>
+<li>Review timelines; code reviews aren&rsquo;t instant.</li>
+<li>Feedback cycles with stakeholders, designers, or QA.</li>
+<li>Delays from cross-team dependencies.</li>
+</ul>
+<h3 id="identify-needed-support-early">Identify Needed Support Early<a hidden class="anchor" aria-hidden="true" href="#identify-needed-support-early">#</a></h3>
+<p>Consider upfront what you&rsquo;ll require:</p>
+<ul>
+<li>Clarified designs or business logic.</li>
+<li>Dedicated QA resources.</li>
+<li>Access to necessary environments or data.</li>
+</ul>
+<p>Raise anticipated blockers early in the planning process to minimize surprises.</p>
+<h2 id="communication-best-practices">Communication Best Practices<a hidden class="anchor" aria-hidden="true" href="#communication-best-practices">#</a></h2>
+<h3 id="proactively-share-changes-or-risks">Proactively Share Changes or Risks<a hidden class="anchor" aria-hidden="true" href="#proactively-share-changes-or-risks">#</a></h3>
+<p>Complex work often takes longer than initially anticipated. This is normal, but silence around missed deadlines is not acceptable.</p>
+<p>Always:</p>
+<ul>
+<li>Communicate delays or potential issues as soon as possible.</li>
+<li>Clearly articulate challenges to project managers and teammates.</li>
+<li>Seek help early—don&rsquo;t silently struggle or compromise quality.</li>
+</ul>
+<p>Cutting corners (like skipping testing) will lead to more issues down the line.</p>
+<h3 id="reflect-after-delays">Reflect After Delays<a hidden class="anchor" aria-hidden="true" href="#reflect-after-delays">#</a></h3>
+<p>When tasks run significantly over:</p>
+<ul>
+<li>Reflect briefly: What caused delays?</li>
+<li>Could planning or stakeholder involvement be improved?</li>
+</ul>
+<p>Conducting a quick &ldquo;mini-retro&rdquo; after feature completion helps refine the team&rsquo;s future estimates and processes.</p>
+<h2 id="summary">Summary<a hidden class="anchor" aria-hidden="true" href="#summary">#</a></h2>
+<ul>
+<li>Define “done” comprehensively: include testing, review, documentation, and stakeholder approval.</li>
+<li>Provide transparent, realistic estimates based on actual investigation.</li>
+<li>Plan with dependencies, review cycles, and unpredictability in mind.</li>
+<li>Never compromise quality to hit deadlines. Communicate proactively.</li>
+<li>Reflect and adapt continuously to improve future deliveries.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Paul&#39;s Workspace</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
